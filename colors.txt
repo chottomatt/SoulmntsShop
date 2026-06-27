@@ -1,0 +1,5 @@
+background = #5e1414
+character = #ffffff
+background opened box = #440000
+"de fã para fã" = #2a0303
+lines = #000000
