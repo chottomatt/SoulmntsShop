@@ -51,6 +51,29 @@ body {
     background-color: #000;
 }
 
-.navbar {
+.navbar ul {
+    margin-top:30px;
+    margin-left: 220px;
+    display: flex;
+    list-style: none;
+    font-size: 54px;
+    gap: 80px;
+}
+
+.navbar li {
+    color: #fff;
+    font-family: 'Creato Display Medium';
+}
+
+.navbar li:hover {
+    color: #bdbdbd;
+    transition: 100ms;
+}
+
+.navbar a {
     text-decoration: none;
+}
+
+#login {
+    margin-left: 100px;
 }
