@@ -28,6 +28,12 @@ body {
 
 }
 
+#logo img {
+    width:276px;
+    height: 93px;
+    display: inline-block;
+}
+
 .upperimg {
     margin-top: 45px;
     margin-left: 57px;
@@ -58,7 +64,11 @@ body {
     display: flex;
     list-style: none;
     font-size: 54px;
-    gap: 80px;
+    gap: 60px;
+}
+
+#login {
+    margin-left: 150px;
 }
 
 .navbar li {
@@ -73,8 +83,4 @@ body {
 
 .navbar a {
     text-decoration: none;
-}
-
-#login {
-    margin-left: 100px;
 }
