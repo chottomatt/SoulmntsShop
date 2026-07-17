@@ -5,7 +5,7 @@ function setupLogoAnimation(elementSelector, imagesArray, frameDelay = 100) {
   const element = document.querySelector(elementSelector);
   
   if (!element) {
-    console.error(`Elemento ${elementSelector} não encontrado`);
+    console.error(`Element ${elementSelector} not found`);
     return;
   }
   
@@ -43,6 +43,8 @@ const logoFrames = [
   'img/logoanimation5.png',
   'img/logoanimation6.png',
   'img/logoanimation7.png',
+  'img/logo.png',
+
 ];
 
-setupLogoAnimation('#logo img', logoFrames, 150);
+setupLogoAnimation('#logo img', logoFrames, 120);
