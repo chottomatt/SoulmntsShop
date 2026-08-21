@@ -8,10 +8,9 @@ function autenticar(req, res, next) {
         return res.status(401).json({ erro: 'Faça login para continuar' }); 
     }
 
-    jwt.verify(token, process.env.JWT_SECRET), (erro, dadosUsuario) => {
+    jwt.verify(token, process.env.JWT_SECRET, (erro, dadosUsuario) => {
         if (erro) {
-            return res.status(403).json
-            ({ erro: 'Sessão expirada, faça login novamente'});
+            return res.status(403).json({ erro: 'Sessão expirada, faça login novamente'});
         }
         req.usuario = dadosUsuario;
         next();
