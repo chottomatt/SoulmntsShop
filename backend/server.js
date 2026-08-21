@@ -5,6 +5,9 @@ const produtosRoutes = require('./routes/produtos');
 const authRoutes = require('./routes/auth');
 const carrinhoRoutes = require('./routes/carrinho');
 const favoritosRoutes = require('./routes/favoritos');
+const enderecosRoutes = require('./routes/enderecos');
+const pedidosRoutes = require('./routes/pedidos');
+
 
 const app = express();
 
@@ -15,6 +18,9 @@ app.use('/api/produtos', produtosRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/carrinho', carrinhoRoutes);
 app.use('/api/favoritos', favoritosRoutes);
+app.use('/api/enderecos', enderecosRoutes);
+app.use('/api/pedidos', pedidosRoutes);
+
 
 
 const PORT = process.env.PORT || 3000;
