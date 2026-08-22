@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Creato Display Medium';
-    src: url('fonts/CreatoDisplay-Medium.otf') format ('opentype');
+    src: url('../assets/fonts/CreatoDisplay-Medium.otf') format ('opentype');
     font-weight: medium;
     font-style: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Creato Display Thin';
-    src: url('fonts/CreatoDisplay-Thin.otf') format ('opentype');
+    src: url('../assets/fonts/CreatoDisplay-Thin.otf') format ('opentype');
     font-weight: thin;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Roboto Bold';
-    src: url('fonts/Roboto-Bold.ttf') format('ttf');
+    src: url('../assets/fonts/Roboto-Bold.ttf') format('ttf');
     font-weight: bold; 
     font-style: normal;
     font-display: swap;

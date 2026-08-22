@@ -36,14 +36,14 @@ function setupLogoAnimation(elementSelector, imagesArray, frameDelay = 100) {
 }
 
 const logoFrames = [
-  'img/logoanimation1.png',
-  'img/logoanimation2.png',
-  'img/logoanimation3.png',
-  'img/logoanimation4.png',
-  'img/logoanimation5.png',
-  'img/logoanimation6.png',
-  'img/logoanimation7.png',
-  'img/logo.png',
+  './assets/img/logoanimation1.png',
+  './assets/img/logoanimation2.png',
+  './assets/img/logoanimation3.png',
+  './assets/img/logoanimation4.png',
+  './assets/img/logoanimation5.png',
+  './assets/img/logoanimation6.png',
+  './assets/img/logoanimation7.png',
+  './assets/img/logo.png',
 
 ];
 
